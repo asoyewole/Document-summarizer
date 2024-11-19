@@ -1,4 +1,5 @@
-**Document Summarizer**  
+  **Document Summarizer**  
+  
 This project allows users to interactively chat with content extracted from multiple PDF documents using a conversational AI model. It uses OpenAI's GPT-based model for answering questions and retrieving relevant information from the uploaded PDFs. The interface is built using Streamlit, providing an intuitive and responsive user experience.
 
 ![pdf summarizer flowchart](https://github.com/user-attachments/assets/de717e14-705e-4ba0-b5be-5d5f932d9e2b)
@@ -12,7 +13,7 @@ This project allows users to interactively chat with content extracted from mult
 6. Scrollable chat interface with styled bot and user messages.
 7. Seamless and user-friendly UI with fixed input and header areas.
 
-**Project Architecture**
+**Project Architecture**  
 The project is structured into the following main components:
 
 **PDF Processing**: Reads and extracts text from uploaded PDFs using PyPDF2.
@@ -21,7 +22,7 @@ Text Chunking: Breaks down large text into smaller, overlapping chunks for optim
 **Conversational Chain**: Uses a retrieval-based system with OpenAI's chat model for answering user queries.
 **Streamlit UI**: Provides an interactive and user-friendly interface to upload files, ask questions, and view responses.
 
-**Example Use Case**
+**Example Use Case**  
 Upload Documents:
 Upload financial reports, research papers, or business documents.
 Ask Questions:
@@ -30,14 +31,14 @@ Ask Questions:
 Receive Contextual Responses:
 Get precise answers tailored to the document content.
 
-**Technologies Used**
+**Technologies Used**  
 Python: Core programming language.
 Streamlit: For building the interactive web application.
 OpenAI GPT API: For natural language processing and conversational responses.
 FAISS: For efficient vector-based similarity search.
 PyPDF2: For extracting text from PDF files.
 
-**Future Improvements**
+**Future Improvements**  
 Add support for other file formats (e.g., Word documents).
 Enable multi-user sessions with distinct memory states.
 Improve chatbot responsiveness with additional tuning.
