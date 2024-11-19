@@ -1,4 +1,4 @@
-**Document Summarizer**
+**Document Summarizer**  
 This project allows users to interactively chat with content extracted from multiple PDF documents using a conversational AI model. It uses OpenAI's GPT-based model for answering questions and retrieving relevant information from the uploaded PDFs. The interface is built using Streamlit, providing an intuitive and responsive user experience.
 
 ![pdf summarizer flowchart](https://github.com/user-attachments/assets/de717e14-705e-4ba0-b5be-5d5f932d9e2b)
